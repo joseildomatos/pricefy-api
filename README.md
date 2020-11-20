@@ -13,25 +13,17 @@
 
 ## Carga
 ### Arquivo .CSV
-============
 Nome          = ExemploPriceFy.scv
                 > Obs.: 1 - O mesmo deve ficar dentro de uma pasta chamada 'data' na 'raiz' do executável
                       2 - Pode-se realizar quantos testes forem necessarios, a rotina sempre irá recriar as tabelas
                 ```Ex.:~/data/ExemploPriceFy.csv```
-## Realizando carga
-================
-2.1 - Abrir fonte e editar a ```ConnectionString``` para o desejado, no arquivo : Program.cs
-2.2 - Abrir fonte e editar a ```arquivoCSVtPath``` para o desejado, no arquivo : Program.cs
-2.3 - Executra teste (F5) - obs: serão solicitadas algumas informações como delimitador e tabelas
-
-## Api - recuperando JSON(pagnação)
-
-### Testando os resultados
-============================
-No navegador, inserir a Url = ```https://localhost:{porta}/api/importacao/paginacao?numeroPagina=1&LimitePagina=20```
-                             > Obs.: se for executar em mode de depuração(F5), o sistema irá sugerir a porta
-
-
-
-
-https://github.com/joseildomatos/pricefy-carga-csv.git
+### Realizando carga
+- Abrir fonte e editar a ```ConnectionString``` para o desejado, no arquivo : Program.cs
+- Abrir fonte e editar a ```arquivoCSVtPath``` para o desejado, no arquivo : Program.cs
+- Executra teste (F5) - obs: serão solicitadas algumas informações como delimitador e tabelas
+### Api - recuperando JSON(pagnação)
+- No navegador, inserir a Url = ```https://localhost:{porta}/api/importacao/paginacao?numeroPagina=1&LimitePagina=20```
+                              > Obs.: se for executar em mode de depuração(F5), o sistema irá sugerir a porta
+### Repositórios
+- https://github.com/joseildomatos/pricefy-carga-csv.git
+- https://github.com/joseildomatos/pricefy-api.git
