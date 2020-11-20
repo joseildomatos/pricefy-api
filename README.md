@@ -1,22 +1,18 @@
 
-## 1 - Instruções gerais
+### Instruções gerais
 
-### 1.1 - Arquitetura
-===========
+#### Arquitetura
 .Net Framework = 4.6
 .Net Core      = 3.1
 Sql Server     = 2012
 IDE            = Visual Studio 2019*
-
-### 1.2 - Banco de dados
-==============
+#### Banco de dados
 Autenticação   = Windows com perfil adm(padrao)
 Nome           = Pricefy (criado antes do inicialiazação dos testes - pode ser qualqler outro, bastando editar a ConnectionString)
 Tabelas        =  << Serão solicitadas e criadas automaticamente no ato da carga >>
 
 
-
-## 2 - Carga
+### Carga
 
 ### 2.1 - Arquivo .CSV
 ============
