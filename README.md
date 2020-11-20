@@ -1,14 +1,14 @@
 
-# 1 - Instruções gerais
+## 1 - Instruções gerais
 
-## 1.1 - Arquitetura
+### 1.1 - Arquitetura
 ===========
 .Net Framework = 4.6
 .Net Core      = 3.1
 Sql Server     = 2012
 IDE            = Visual Studio 2019*
 
-## 1.2 - Banco de dados
+### 1.2 - Banco de dados
 ==============
 Autenticação   = Windows com perfil adm(padrao)
 Nome           = Pricefy (criado antes do inicialiazação dos testes - pode ser qualqler outro, bastando editar a ConnectionString)
@@ -16,9 +16,9 @@ Tabelas        =  << Serão solicitadas e criadas automaticamente no ato da carg
 
 
 
-#2 - Carga
+## 2 - Carga
 
-## 2.1 - Arquivo .CSV
+### 2.1 - Arquivo .CSV
 ============
 Nome          = ExemploPriceFy.scv
                 Obs.: 1 - O mesmo deve ficar dentro de uma pasta chamada 'data' na 'raiz' do executável
