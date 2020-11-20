@@ -13,9 +13,9 @@
 
 ## Carga
 ### Arquivo .CSV
-Nome          = ExemploPriceFy.scv
-                > Obs.: 1 - O mesmo deve ficar dentro de uma pasta chamada 'data' na 'raiz' do executável
-                      2 - Pode-se realizar quantos testes forem necessarios, a rotina sempre irá recriar as tabelas
+Nome          = ```ExemploPriceFy.scv```
+                Obs.: - O mesmo deve ficar dentro de uma pasta chamada 'data' na 'raiz' do executável
+                      - Pode-se realizar quantos testes forem necessarios, a rotina sempre irá recriar as tabelas
                 ```Ex.:~/data/ExemploPriceFy.csv```
 ### Realizando carga
 - Abrir fonte e editar a ```ConnectionString``` para o desejado, no arquivo : Program.cs
