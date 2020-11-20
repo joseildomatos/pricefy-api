@@ -7,7 +7,7 @@
 - IDE            = Visual Studio 2019*
 ### Banco de dados
 - Autenticação   = Windows com perfil adm(padrao)
-- Configuração   = No MSSQL Server Manegement Studiom editar o tempo limite de consulta para 3000(por exemplo)
+- Configuração   = No MSSQL Server Manegement Studiom editar o tempo limite de consulta para 0(ilimitado, ou colocar um tempo longo)
 - Nome           = Pricefy (criado antes do inicialiazação dos testes - pode ser qualquer outro, bastando editar a ConnectionString)
 - Tabelas        =  << Serão solicitadas e criadas automaticamente no ato da carga >>
 
