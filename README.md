@@ -21,9 +21,3 @@
 - Abrir fonte e editar a ```ConnectionString``` para o desejado, no arquivo : Program.cs
 - Abrir fonte e editar a ```arquivoCSVtPath``` para o desejado, no arquivo : Program.cs
 - Executra teste (F5) - obs: serão solicitadas algumas informações como delimitador e tabelas
-## Api - recuperando JSON(paginação)
-- No navegador, inserir a Url = ```https://localhost:{porta}/api/importacao/paginacao?numeroPagina=1&LimitePagina=20```
-                               Obs.: se for executar em mode de depuração(F5), o sistema irá sugerir a porta
-## Repositórios
-- https://github.com/joseildomatos/pricefy-carga-csv.git
-- https://github.com/joseildomatos/pricefy-api.git
